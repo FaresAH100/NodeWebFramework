@@ -19,7 +19,7 @@ io.on('connection', (socket) => {
     console.log('connected at: ');
     console.log(socket.id);
 })
-// TODO: Add new thing
+// TODO: Add a new URI
 mongoose.connect("ADDING_NEW");
 
 setUpPassport();
