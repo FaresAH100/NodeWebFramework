@@ -19,8 +19,8 @@ io.on('connection', (socket) => {
     console.log('connected at: ');
     console.log(socket.id);
 })
-
-mongoose.connect(`mongodb+srv://admin:<${process.env.DATABASECONNECTION}@cluster2023.s4mntee.mongodb.net/?retryWrites=true&w=majority`);
+// TODO: Add new thing
+mongoose.connect("ADDING_NEW");
 
 setUpPassport();
 
